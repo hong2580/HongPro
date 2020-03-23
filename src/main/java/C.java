@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class C {
+    public static void main(String[] args) {
+        //输入
+        String str1 = "ilikesamsungmobile";
+        //字典
+        String[] dic1 = {"i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "mango"};
+        //额外字典(用户输入的字典）
+        String[] dic2 = {"i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "mango"};
+        List<String> dicList1 = Arrays.asList(dic1);
+        List<String> dicList2 = Arrays.asList(dic2);
+        List<String> dicList = new ArrayList<String>();
+        dicList.addAll(dicList1);
+        dicList.addAll(dicList2);
+        List<String> ans = new ArrayList<String>();
+
+
+        StringBuffer sb = new StringBuffer(str1);
+        int i=0;
+
+        while (sb.length()>0){
+            for(int j=1;j<=sb.length();j++){
+                String s = sb.substring(0,j);
+                if(dicList.contains(s)){
+                    ans.add(s);
+                    String ss = sb.substring(j,sb.length());
+                    sb = new StringBuffer(ss);
+                    j=1;
+                }
+            }
+        }
+
+
+        //输出
+        for(int k=0;k<ans.size();k++){
+            if(k!=ans.size()-1){
+                System.out.print(ans.get(k)+" ");
+            }else{
+                System.out.print(ans.get(k));
+            }
+        }
+
+
+    }
+}
