@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Dictionary publicDictionary = Dictionary.newBuilder()
+        Dictionary pubDictionary = Dictionary.newBuilder()
                 .appendDictionary("i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "man go")
                 .build();
 
@@ -11,12 +11,12 @@ public class Main {
                 .appendDictionary("i", "like", "sam", "sung", "mobile", "icecream", "man go", "mango")
                 .build();
 
-        WordSeg wordSegmenter = WordSeg.newBuilder()
-                .withPublicDictionary(publicDictionary)
+        WordSeg swordSeg = WordSeg.newBuilder()
+                .withPublicDictionary(pubDictionary)
                 .withUserDictionary(userDictionary)
                 .build();
 
-        List<String> result = wordSegmenter.wordBreak("ilikeicecreamandmango", WordSeg.SearchMode.ONLY_PUBLIC);
+        List<String> result = swordSeg.wordBreak("ilikeicecreamandmango", WordSeg.SearchMode.ONLY_PUBLIC);
 
         System.out.println("input: ");
         System.out.println("ilikeicecreamandmango");

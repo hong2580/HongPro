@@ -78,27 +78,25 @@ public class WordSeg {
                 upper --;
             } while (searchResults.isEmpty() && upper - pointer >= minLength);
 
-            // 子串中不处理新词
+
             if (searchResults.isEmpty() && isSub) {
                 result.clear();
                 return result;
             }
 
             int subLen = sub.length();
-            if (subLen > minLength * 2) {// 子串长度必须大于词典中最小长度单词的两倍才做子串分词处理
+            if (subLen > minLength * 2) {
                 List<List<String>> r = wordBreak(sub, dictionary, subLen - 1, true);
                 r.stream().filter(l -> !l.isEmpty()).map(l -> String.join(" ", l)).forEach(searchResults::add);
             }
-            if (searchResults.isEmpty()) {// 新词采集
+            if (searchResults.isEmpty()) {
                 newWordProcessor.collect(sub);
             } else {
-                // 新词处理
                 result.addAll(newWordProcessor.process());
                 result.add(new ArrayList<>(searchResults));
             }
             pointer += subLen;
         }
-        // 避免句子结尾有新词漏掉处理
         result.addAll(newWordProcessor.process());
         return CollectionUtils.descartes(result);
     }

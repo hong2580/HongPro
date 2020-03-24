@@ -4,9 +4,7 @@
     <list default="true" id="00868aa9-a472-4f45-9459-27b51d8e8577" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordSeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordSeg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585034119302</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="提交代码">
+      <created>1585034391487</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585034391487</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,10 +170,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585033393355" />
-    <state x="598" y="113" key="CommitChangelistDialog2" timestamp="1585034118594">
+    <state x="598" y="113" key="CommitChangelistDialog2" timestamp="1585034390746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585034118594" />
+    <state x="598" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585034390746" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1584980593532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,10 +206,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584979397564" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585034120997">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585034402821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585034120997" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585034402821" />
     <state x="665" y="311" key="git4idea.merge.GitPullDialog" timestamp="1584980770072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
