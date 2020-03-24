@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00868aa9-a472-4f45-9459-27b51d8e8577" name="Default Changelist" comment="提交代码">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaTest/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaTest/com/company/RegExpTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/RegExpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/B.class" afterDir="false" />
+    <list default="true" id="00868aa9-a472-4f45-9459-27b51d8e8577" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DefNewWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DefNewWordFac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/INewWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/INewWordFac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WordSeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/C.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/C.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +58,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\hsh\eclipse-workspace\JavaTest\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A" />
       <module name="JavaTest" />
@@ -74,8 +80,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.WordSegmenterTest" />
         <item itemvalue="Application.A" />
       </list>
     </recent_temporary>
@@ -117,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584980148058</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交代码">
+      <created>1584980819198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584980819198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,14 +156,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1584979101281">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1585032847391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584979101281" />
-    <state x="598" y="113" key="CommitChangelistDialog2" timestamp="1584980147236">
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585032847391" />
+    <state x="686" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585033393355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584980147236" />
+    <state x="686" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585033393355" />
+    <state x="598" y="113" key="CommitChangelistDialog2" timestamp="1584980818597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584980818597" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1584980593532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -145,30 +180,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="833" y="410" width="273" height="219" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584980007684" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584979600025">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1585033722761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584979600025" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584979600025">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585033722761" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1585033722761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584979600025" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584979600025">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585033722761" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1585033722761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584979600025" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584979600025">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585033722761" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1585033722761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584979600025" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585033722761" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1584979397564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584979397564" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584980578030">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584980832298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584980578030" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584980832298" />
     <state x="665" y="311" key="git4idea.merge.GitPullDialog" timestamp="1584980770072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
