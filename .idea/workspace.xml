@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00868aa9-a472-4f45-9459-27b51d8e8577" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DefNewWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DefNewWordFac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/INewWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/INewWordFac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WordSeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/C.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/C.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584980819198</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="提交代码">
+      <created>1585033734740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585033734740</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,10 +154,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585033393355" />
-    <state x="598" y="113" key="CommitChangelistDialog2" timestamp="1584980818597">
+    <state x="598" y="113" key="CommitChangelistDialog2" timestamp="1585033733755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584980818597" />
+    <state x="598" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585033733755" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1584980593532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -200,10 +190,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584979397564" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584980832298">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585033757038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584980832298" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585033757038" />
     <state x="665" y="311" key="git4idea.merge.GitPullDialog" timestamp="1584980770072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
