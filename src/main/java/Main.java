@@ -18,15 +18,12 @@ public class Main {
 
         List<String> result = wordSegmenter.wordBreak("ilikeicecreamandmango", WordSeg.SearchMode.ONLY_PUBLIC);
 
-        System.out.println(result.toString());
-
-    }
-
-    private static void println(String input, Collection<String> collection) {
         System.out.println("input: ");
-        System.out.println(input);
+        System.out.println("ilikeicecreamandmango");
         System.out.println("output: ");
-        collection.forEach(System.out::println);
+        result.forEach(System.out::println);
         System.out.println();
     }
+
+
 }
